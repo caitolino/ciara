@@ -141,4 +141,11 @@ footer {
   font-weight: 400;
   font-style: normal;
 }
-
+body::selection {
+  background-color:rgb(249, 242, 226);
+  color:rgb(233, 185, 190);
+}
+.container{
+  display:block;
+  font-family: "Crafty Girls", cursive;
+}
