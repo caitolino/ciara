@@ -12,8 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-}
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));}
 
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
@@ -32,15 +31,15 @@ header{
     height: var(--header-height);
     width: 100%;
     background-color:rgb(249, 242, 226);
-    color: rgb(230, 163, 191);
+    color: #FA5C5C;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: flex;
     align-items: center;
     padding: 0 16px;
 }
 #title{
-    color:rgb(233, 185, 190);
-    background-color: rgba(255, 250, 240, 0.486);
+    color: rgb(189, 211, 216);
+    background-color: #fce9ab;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,12 +50,15 @@ header{
     font-size: large;
 }
 * {
-  font-family: "Sevillana", sans-serif;
+  font-family: "Love Ya Like A Sister", sans-serif;
 }
 
 .big{font-family: "Sevillana", sans-serif;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;}
+
         
 .roboto-<uniquifier> {
   font-family: "Roboto", sans-serif;
@@ -75,8 +77,8 @@ header{
 flex-direction: column;}
 .help{flex-direction: column;}
 footer {
-  color:rgb(233, 185, 190);
-    background-color: rgba(255, 250, 240, 0.486);
+    color:rgb(189, 211, 216);
+    background-color: rgb(252, 233, 171);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -95,15 +97,15 @@ footer {
   position:absolute;
   top: 0;
   left: 0;
-  content:'\2726';
+  content:'⋆';
   font-size: 9px;
 }
 .star:before{
   color:transparent;
-  text-shadow: 0 0 3px floralwhite);
+  text-shadow: 0 0 3px rgb(255, 190, 193);
 }
 .star:after{
-  background: rgb(249, 242, 226);
+  background: rgb(251, 221, 231);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -142,10 +144,21 @@ footer {
   font-style: normal;
 }
 body::selection {
-  background-color:rgb(249, 242, 226);
-  color:rgb(233, 185, 190);
+  background-color:rgb(196, 43, 52);
+  color:rgb(229, 100, 141);
 }
 .container{
-  display:block;
+  display:flexbox;
   font-family: "Crafty Girls", cursive;
+  background-image: url(67.png);
+        background-size:cover;
+}
+.left{
+  width: 100%;
+}
+.middle{
+  width: 50%;
+}
+.deco{
+  color: rgb(252, 233, 171);
 }
