@@ -12,7 +12,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));}
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    background-image: url(backy.png);
+      background-size:auto;
+
+        background-repeat:round;}
 
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
@@ -102,10 +106,10 @@ footer {
 }
 .star:before{
   color:transparent;
-  text-shadow: 0 0 3px rgb(255, 190, 193);
+  text-shadow: 0 0 3px rgb(218, 243, 249);
 }
 .star:after{
-  background: rgb(251, 221, 231);
+  background: rgb(218, 243, 249);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
